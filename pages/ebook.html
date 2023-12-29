@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBook App</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css" id="styleSheet">
+</head>
+<body>
+    <header class="header">   </header>
+
+    <main>
+        <div class="container">
+            <h1 class="gallery-heading">Project features</h1>
+            <div class="gallery">
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Web Dev/ebook app/ebook (1).png" alt="ebook app screenshot" style="border: 1px solid black;">
+                    <p class="gallery-text">Discover recommended eBooks</p>
+                </section>
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Web Dev/ebook app/ebook (2).png" alt="ebook app screenshot" style="border: 1px solid black;">
+                    <p class="gallery-text">Browse free eBooks and eBooks in various genres</p>
+                </section>
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Web Dev/ebook app/ebook (3).png" alt="ebook app screenshot" style="border: 1px solid black;">
+                    <p class="gallery-text">Search for your desired eBook</p>
+                </section>
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Web Dev/ebook app/ebook.png" alt="ebook app screenshot" style="border: 1px solid black;">
+                    <p class="gallery-text">Bookmark for your favourite eBook</p>
+                </section>
+            
+            </div>
+            <section class="tech individual">
+                <h1>Tech Stack</h1>
+                <div class="tech-icons">
+                    <div class="page flex">
+                        <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="logo">
+                        <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg" alt="logo">
+                        <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="logo">
+                        <img src="https://raw.githubusercontent.com/uiwjs/file-icons/master/icon/ejs.svg" alt="logo">
+                        <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" alt="logo">
+                        <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="logo">
+                    </div>
+                </div>
+            </section>
+            <div class="video-section">
+                <h1 class="gallery-heading">Project Demo</h1>
+                <video controls>
+                    <source src="/Resources/Web Dev/ebook app/record.mp4" type="video/mp4">
+                    Your browser does not support displaying of video
+                </video>
+                <p class="credits">Design credits: Manju Parkavi</p>
+            </div>
+            <div class="steps">
+                <h1 class="page-heading">Steps and Challenges involved in making this project</h1>
+                <ul class="steps-list">
+                    <li>
+                        <h3>Planning</h3>- I chose EJS for frontend because I was unaware of react at that time<br> - For the backend, I decided to go with Node and try postgresql 
+                    </li>
+                    <li>
+                        <h3>Setting up the project</h3>- Downloading the required google fonts and images <br> - 
+                        Organizing frontend and backend files <br> - Initializing npm on backend
+                    </li>
+                    <li>
+                        <h3>Code Execution</h3>- Implemented html,css and js for overall page functionality <br> <br> - Added EJS in html as to make the page dynamic <br>
+                        - Created an express server <br> - Added get and post routes to receive and send data <br>
+                        - Build a database in postgresql <br> - Created a table for storing the bookmark ebooks <br> - Implemented routes on displaying the eBooks on page load  <br>- Fixed bugs <br>- Testing code and optimizing
+                        
+                    </li>
+                    <li>
+                        <h3>Challenges Faced</h3>- Responsive design
+                    </li>
+                </ul>
+            </div>
+           
+        </div>
+    </main>
+
+    <div class="addFooter"> </div>
+    <script>
+        $(function () {
+            $(".header").load("/header/header.html");
+            $(".addFooter").load("/footer/footer.html")
+        });
+    </script>

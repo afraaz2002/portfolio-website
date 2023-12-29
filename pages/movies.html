@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies App</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css" id="styleSheet">
+</head>
+<body>
+    <header class="header">   </header>
+
+    <main>
+        <div class="container">
+            <h1 class="gallery-heading">Project features</h1>
+            <div class="gallery">
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Web Dev/Movie App/movie.png" alt="movie app screenshot">
+                    <p class="gallery-text">Get newly released movies</p>
+                </section>
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Web Dev/Movie App/Movie Website (1).png" alt="movie app screenshot">
+                    <p class="gallery-text">Search up for your favourite movies</p>
+                </section>
+            </div>
+            <section class="tech individual">
+                <h1>Tech Stack</h1>
+                <div class="tech-icons">
+                    <div class="page flex">
+                        <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="logo">
+                        <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg" alt="logo">
+                        <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="logo">
+                        <img src="https://raw.githubusercontent.com/uiwjs/file-icons/master/icon/ejs.svg" alt="logo">
+                        <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" alt="logo">
+                    </div>
+                </div>
+            </section>
+            <div class="video-section">
+                <h1 class="gallery-heading">Project Demo</h1>
+                <video controls>
+                    <source src="/Resources/Web Dev/Movie App/record.mp4" type="video/mp4">
+                    Your browser does not support displaying of video
+                </video>
+                <p class="credits">Design credits: traversy media</p>
+            </div>
+            <div class="steps">
+                <h1 class="page-heading">Steps and Challenges involved in making this project</h1>
+                <ul class="steps-list">
+                    <li>
+                        <h3>Planning</h3>- This project is actually a part of traversy media challenge  <br> - As the project requirements was low, I chose ejs as templating <br>
+                    </li>
+                    <li>
+                        <h3>Setting up the project</h3>- The setup is pretty much simple it is just adding html,css and js into individual folders
+                    </li>
+                    <li>
+                        <h3>Code Execution</h3>- Adding HTML boilterplate and adding the necessary elements <br>- Linking the CSS and JS file to the HTML <br> - Styling the website using plain css and ensuring the site in responsive <br> - Adding JS for DOM manipulation <br> - Using fetch API to get requests from the movies api <br> - Constant testing and cleanup
+                        
+                    </li>
+                    <li>
+                        <h3>Challenges Faced</h3>- Card hover effect
+                    </li>
+                </ul>
+            </div>
+    
+        </div>
+        
+    </main>
+
+    <div class="addFooter"> </div>
+    <script>
+        $(function () {
+            $(".header").load("/header/header.html");
+            $(".addFooter").load("/footer/footer.html")
+        });
+    </script>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vada Poche - funny video</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css" id="styleSheet">
+</head>
+<body>
+    <header class="header">   </header>
+
+    <main>
+        <div class="container">
+            <h1 class="gallery-heading">Vada Poche highlights</h1>
+            <div class="gallery collection">
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/cinematography/vada_poche (2).png" alt="vadapoche highlight">
+                </section>
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/cinematography/vada_poche.png" alt="vadapoche highlight">
+                </section>
+                 
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/cinematography/vada_poche (3).png" alt="vadapoche highlight">
+                </section>
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/cinematography/vada_poche (4).png" alt="vadapoche highlight">
+                </section>
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/cinematography/vada_poche (1).png" alt="vadapoche highlight">
+                </section>
+            </div>
+            <div class="video-section">
+                <h1 class="gallery-heading">Project Demo</h1>
+                <video controls>
+                    <source src="/Resources/cinematography/vadaPoche.mp4" type="video/mp4">
+                    Your browser does not support displaying of video
+                </video>
+            </div>
+
+            <a class="glink" href="https://drive.google.com/file/d/1HGNr6W-zkkY9QMEKQox5HAfI5xGRbOjY/view?usp=sharing" target="_blank">Watch full video here...</a>
+            
+            <div class="steps">
+                <h1 class="page-heading">Steps and Challenges involved in making this project</h1>
+                <ul class="steps-list">
+                    <li>
+                        <h3>Planning</h3>- Thinking of a good story <br> - Planning the location and number of people required for the shoot
+                    </li>
+                    <li>
+                        <h3>Setting up the project</h3>- Writing a script for the video <br> - Assigning roles to the people <br> - Discussing about screenplay and cinematography <br> - Setting up the scene ready for shoot
+                    </li>
+                    <li>
+                        <h3>Execution</h3>- Shooting scene by scene according to the script <br>- Sorting and flitering the clips for the final video <br> - Editing each clips with right fliters <br> - Merging the finalized clips into a final video
+                    </li>
+                    <li>
+                        <h3>Challenges Faced</h3>- Setting up the location <br> - Shooting clips without disturbance
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <div class="addFooter"> </div>
+    <script>
+        $(function () {
+            $(".header").load("/header/header.html");
+            $(".addFooter").load("/footer/footer.html")
+        });
+    </script>

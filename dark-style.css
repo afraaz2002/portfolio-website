@@ -1,0 +1,27 @@
+body{
+    background-color: #1b1b1c;
+}
+
+#logo{
+    color: #32b5e0;
+}
+
+.hero,.nav-items>*,.tech h1,.projects h1,footer,.footer-list li a,.card-content > *,.about,.contact,.gallery-heading,.page-heading,.steps-list,.gallery-text,.video-section,.credits{
+    color: white;
+}
+
+.nav-items a:hover {
+    color: #b8b8b8;
+}
+
+.tech {
+    background-color: #f1fbff1a;
+}
+
+.btn {
+    background-color: #de7600;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.05);
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css" id="styleSheet">
+</head>
+
+<body>
+    <header class="header"> </header>
+
+    <main>
+        <div class="container">
+            <h1 class="gallery-heading">Project features</h1>
+            <div class="gallery">
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Web Dev/Recipe App/recipe (1).png"
+                        alt="recipe app screenshot">
+                    <p class="gallery-text">Get popular and vegetarian food recipes</p>
+                </section>
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Web Dev/Recipe App/recipe (2).png"
+                        alt="recipe app screenshot">
+                    <p class="gallery-text">Search for your desired recipes</p>
+                </section>
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Web Dev/Recipe App/recipe (3).png"
+                        alt="recipe app screenshot">
+                    <p class="gallery-text">Know more about the food recipe</p>
+                </section>
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Web Dev/Recipe App/recipe (4).png"
+                        alt="recipe app screenshot">
+                    <p class="gallery-text">Add your recipes to favourites</p>
+                </section>
+
+            </div>
+            <section class="tech individual">
+                <h1>Tech Stack</h1>
+                <div class="tech-icons">
+                    <div class="page flex">
+                        <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="logo">
+                        <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg" alt="logo">
+                        <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="logo">
+                        <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="logo">
+                        <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" alt="logo" <img
+                            src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="logo">
+                    </div>
+                </div>
+            </section>
+            <div class="video-section">
+                <h1 class="gallery-heading">Project Demo</h1>
+                <video controls>
+                    <source src="/Resources/Web Dev/Recipe App/record.mp4" type="video/mp4">
+                    Your browser does not support displaying of video
+                </video>
+                <p class="credits">Design credits: developedByEd</p>
+            </div>
+            <div class="steps">
+                <h1 class="page-heading">Steps and Challenges involved in making this project</h1>
+                <ul class="steps-list">
+                    <li>
+                        <h3>Planning</h3>- I got the idea of creating a recipe app from developedByEd <br> - I planned
+                        of having seperate sliders for different sections <br> - I really wanted to try React so this
+                        was my first project with react and decided to use mongoDB and node for the whole app
+                    </li>
+                    <li>
+                        <h3>Setting up the project</h3>- Downloaded the required google fonts with different weights
+                        <br>- Chose a matching background and color combination for the app <br>- Organized the folder
+                        for frontend and backend <br>- Created React app using npx <br>- Initialized npm for the backend <br> -Testing the api in postman
+                    </li>
+                    <li>
+                        <h3>Code Execution</h3>- Created multiple components for each section <br>- Exported and
+                        imported the components to main file <br>- Designed the page elements using styled component and
+                        other react packages <br>- Made API calls using fetch api as to get details regarding each
+                        recipes <br>- Installed packages such as express,mongodb,mongoose,body-parser,etc <br>- Created an
+                        express server <br>- Initialized mongoose <br> -Created database and schema <br>- Added get and
+                        post routes to receive and send data <br>- Fixed bugs <br>- Testing code and optimizing
+                    </li>
+                    <li>
+                        <h3>Challenges Faced</h3>- Modern Search bar design <br>- Handling data stored in database <br>- Code Optimization
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="addFooter"> </div>
+    <script>
+        $(function () {
+            $(".header").load("/header/header.html");
+            $(".addFooter").load("/footer/footer.html")
+        });
+    </script>

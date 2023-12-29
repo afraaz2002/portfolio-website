@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Management App</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css" id="styleSheet">
+</head>
+<body>
+    <header class="header">   </header>
+
+    <main>
+        <div class="container">
+            <h1 class="gallery-heading">Project features</h1>
+            <div class="gallery">
+          
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Web Dev/school app/school (2).png" alt="school app screenshot">
+                    <p class="gallery-text">Fully functional School Management app</p>
+                </section>
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Web Dev/school app/school (3).png" alt="school app screenshot">
+                    <p class="gallery-text">Viewers can be aware of school's infrastructure</p>
+                </section>
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Web Dev/school app/school (5).png" alt="school app screenshot">
+                    <p class="gallery-text">The school admin has the authority to view and remove an employee or a student</p>
+                </section>
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Web Dev/school app/school (6).png" alt="school app screenshot">
+                    <p class="gallery-text">The school admin can also register the employees as well as the students</p>
+                </section>
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Web Dev/school app/school (7).png" alt="school app screenshot">
+                    <p class="gallery-text">The employee(teacher) can view their profile which the admin created</p>
+                </section>
+              
+          
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Web Dev/school app/school (1).png" alt="school app screenshot">
+                    <p class="gallery-text">The teacher role is to view/update student marks </p>
+                </section>
+             
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Web Dev/school app/school (4).png" alt="school app screenshot">
+                    <p class="gallery-text">Finally, the student can login with their account and can view their marks</p>
+                </section>
+            </div>
+            <section class="tech individual">
+                <h1>Tech Stack</h1>
+                <div class="tech-icons">
+                    <div class="page flex">
+                        <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="logo">
+                        <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg" alt="logo">
+                        <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="logo">
+                        <img src="https://www.vectorlogo.zone/logos/php/php-icon.svg" alt="logo">
+                        <img src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" alt="logo">
+                    </div>
+                </div>
+            </section>
+            <div class="video-section">
+                <h1 class="gallery-heading">Project Demo</h1>
+                <video controls>
+                    <source src="/Resources/Web Dev/school app/record.mp4" type="video/mp4">
+                    Your browser does not support displaying of video
+                </video>
+            </div>
+            <div class="steps">
+                <h1 class="page-heading">Steps and Challenges involved in making this project</h1>
+                <ul class="steps-list">
+                    <li>
+                        <h3>Planning</h3>- This is first project where I used php instead of node <br> - Made a detail plan of each user's roles <br> - Made some wireframes for the layouts
+                    </li>
+                    <li>
+                        <h3>Setting up the project</h3>- Downloaded the required google fonts with different weights
+                         <br>Created root directory in htdocs <br>- Organized the folder for different users(Admin,Teacher,Student)
+                    </li>
+                    <li>
+                        <h3>Code Execution</h3>- Designed the home pages and other user pages using html/css <br>
+                        - Created header and footer pages to avoid repeition <br> - Made login pages for the users <br> - Turning on apache and mysql server on XAMPP <br> - Created employee and student registration pages <br> - Storing the employees and students with their passwords in Mysql <br> - Adding authenication to each of the user <br> - Created a marks allocation page for students <br> - Displaying respective information to each registered users <br> - Implemented Grade calculation system to display grades of each students <br> - Testing and checkup 
+                    </li>
+                    <li>
+                        <h3>Challenges Faced</h3>- Handling different users <br>- Optimizing the code <br> - Maintaining the project
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <div class="addFooter"> </div>
+    <script>
+        $(function () {
+            $(".header").load("/header/header.html");
+            $(".addFooter").load("/footer/footer.html")
+        });
+    </script>

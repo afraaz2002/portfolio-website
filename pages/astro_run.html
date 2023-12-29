@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro Run - Mobile Game</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css" id="styleSheet">
+</head>
+
+<body>
+    <header class="header"> </header>
+
+    <main>
+        <div class="container">
+            <h1 class="gallery-heading">Astro Run gameplay</h1>
+            <div class="gallery portrait">
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Game Dev/astro run (2).jpg" alt="Astro run screenshot">
+                    <p class="gallery-text">Space theme action filled mobile game</p>
+                </section>
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Game Dev/astro run (4).jpg" alt="Astro run screenshot">
+                    <p class="gallery-text">Your mission is to reach the rocket as to progress levels</p>
+                </section>
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Game Dev/astro run (6).jpg" alt="Astro run screenshot">
+                    <p class="gallery-text">Watch out for obstacles such as aliens,black hole,etc</p>
+                </section>
+                <section class="gallery-card">
+                    <img class="gallery-img" src="/Resources/Game Dev/astro run (5).jpg" alt="Astro run screenshot">
+                    <p class="gallery-text">Beware of toxic gas which exhaust your fuel</p>
+                </section>
+            </div>
+            
+            <h1 class="gallery-heading">Project Demo</h1>
+            <div class="video-section flex">
+                <div class="display-video">
+                    
+                    <video class="portrait-video" controls>
+                        <source src="/Resources/Game Dev/astro_run.mp4" type="video/mp4">
+                        Your browser does not support displaying of video
+                    </video>
+                </div>
+                <div class="video-content">
+                    <p>Astro Run is a 2D side-scrolling action game where players take on the role of an astronaut running through space. The game features various obstacles and enemies that the player must avoid while collecting coins and power-ups to increase their score and improve their abilities. With simple controls and addictive gameplay, Astro Run offers a fun and challenging experience for gamers of all ages.</p>
+                    <br>
+                    <p>Download Now! Available at Playstore</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.Freshtronics.AstroRun&hl=en_IN&gl=US" class="playstore" target="_blank"><img src="https://www.vectorlogo.zone/logos/google_play/google_play-icon.svg" alt="astro run"></a>
+    
+                </div>
+            </div>
+            <div class="steps">
+                <h1 class="page-heading">Steps and Challenges involved in making this project</h1>
+                <ul class="steps-list">
+                    <li>
+                        <h3>Planning</h3>- Made a game design document to plan out every aspects of the game <br> - The game design document contains details such as level design, characters and backgrounds, etc
+                    </li>
+                    <li>
+                        <h3>Setting up the project</h3>- Initializing the Unity project <br> - Wireframing the GUI, levels and characters <br> - Organizing the folders for different assets such as the sprites, C# scripts, materials, etc
+                    </li>
+                    <li>
+                        <h3>Execution</h3>- Designing sprites in adobe photoshop <br> - Importing the assets in Unity <br> - Rendering the assets to the scene <br> - Creating mulitple scenes for multiple levels <br> - Creating game manager script which controls the entire game <br> - Building the player controller <br> - Adding physics for player and game elements <br> - Creating tons of other scripts for other functionalites which includes level progression, shooting, black hole pull effect, etc <br> - Implementing GUI which is responsive to all devices <br> - Fixing bugs and improving the code <br> - Enhancing game performance <br> - Continous testing and debugging <br> - Exporting the game as an apk file <br> - Launching the game on playstore
+                    </li>
+                    <li>
+                        <h3>Challenges Faced</h3>- Player controls <br>- Optimizing/Refactoring the code <br>- Maintaining the game <br>- Fixing bugs and glitches
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <div class="addFooter"> </div>
+    <script>
+        $(function () {
+            $(".header").load("/header/header.html");
+            $(".addFooter").load("/footer/footer.html")
+        });
+    </script>
