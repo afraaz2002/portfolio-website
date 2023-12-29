@@ -3,7 +3,7 @@ $(document).ready(function () {
     let getMode = localStorage.getItem("mode");
 
     if(getMode == "dark"){
-        $( "<link rel='stylesheet' href='../dark-style.css' id='darkStyleSheet'>" ).insertAfter("#styleSheet");
+        $( "<link rel='stylesheet' href='css/dark-style.css' id='darkStyleSheet'>" ).insertAfter("#styleSheet");
         $(".fa-moon").hide();
         $(".fa-lightbulb").show();
     }else{
@@ -19,7 +19,7 @@ $(document).ready(function () {
             $(".fa-lightbulb").hide();
         }
         else{
-            $( "<link rel='stylesheet' href='../dark-style.css' id='darkStyleSheet'>" ).insertAfter("#styleSheet");
+            $( "<link rel='stylesheet' href='css/dark-style.css' id='darkStyleSheet'>" ).insertAfter("#styleSheet");
             localStorage.setItem("mode", "dark");
             $(".fa-moon").hide();
             $(".fa-lightbulb").show();
